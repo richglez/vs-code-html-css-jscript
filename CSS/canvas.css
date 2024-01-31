@@ -1,0 +1,15 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0; /* quitar padding o margen blanco en nuestra pagina */
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+
+
+#canvas{
+  border: 5px solid black;
+}

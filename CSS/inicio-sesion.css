@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden;  Hide scrollbars */
+    font-family: 'open sans' ,sans-serif;
+
+}
+
+
+body{
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/Images/nicole-mason-cv_fqvrbKWs-unsplash.jpg) no-repeat;
+    background-size: cover; /* ajusta todo el background covierta toda la pagina sin blanco ataras */
+    min-height: 100vh;
+}
+
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    box-shadow: 0 0 30px; /* contorno led xd */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: aliceblue;
+}
+
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px
+
+}
+
+
+.wrapper .form-box h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.wrapper .form-box .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid currentColor;
+    margin: 35px 0
+}
+
+
+
+
+.wrapper .form-box .input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);  /* para justificar y moverlos hacia arriba */
+    font-size: 17px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s; /* va a hacer una transicion de 5 segundos's*/
+    
+}
+
+
+
+
+.wrapper .form-box .input-box input:focus~label,  /* de este objeto, al cargar la pagina focusea el label's*/
+.wrapper .form-box .input-box input:valid~label{  /* on clikc txt's*/
+    top: -5px;  /* vas a hacer esto: va a subirse arriba 5px el label's*/
+    
+}
+
+
+
+
+
+
+.wrapper .form-box .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: currentColor;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+
+
+
+
+.wrapper .form-box .input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    line-height: 52px;
+}
+
+
+
+.wrapper .form-box .remember-forgot{
+    font-size: 15px;
+    color: currentColor;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+.wrapper .form-box .remember-forgot label input{
+    accent-color: #162938;
+    margin-right: 3px;
+}
+
+
+.wrapper .form-box .remember-forgot label:hover{
+    font-style: italic;
+}
+
+
+
+.wrapper .form-box .remember-forgot a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.wrapper .form-box .remember-forgot a:hover{
+    text-decoration: underline;
+    font-style: italic;
+    
+}
+
+
+
+
+
+
+
+
+.wrapper .btnSumbit{
+    transform: translateY(50%);
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+    border: none;
+    background: white;
+    border-radius: 9px;
+    outline: none;
+    cursor: pointer;
+    
+    
+}
+
+
+
+.wrapper .btnSumbit:hover{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+.wrapper .login-register{
+    text-align: center;
+    position: relative;
+    transform: translateY(230%);
+}
+
+
+.wrapper .login-register .register-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+.wrapper .login-register a:hover{
+    text-decoration: underline;
+    font-style:inherit;
+    font-style: italic;
+}
+

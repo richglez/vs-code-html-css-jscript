@@ -1,0 +1,52 @@
+
+
+form{
+  margin:20px;
+  padding:20px;
+  width:25%;
+  border:1px solid #ccc;
+}
+
+label{
+  width:100%;
+  display:block;
+  fontsize:12px;
+}
+input, textarea{
+  width:100%;
+  margin-bottom:20px;
+}
+
+input:focus, textarea:focus{
+  border:1px; solid:blue;
+}
+
+
+
+
+
+
+.iniciar-sesion input[type="submit"]{
+  margin-bottom:0;
+  background:#1877f2;
+  color:#fff:
+  border:none;
+}
+
+.iniciar-sesion input[type="submit"]:hover{
+  background:#1877f2;
+  cursor:pointer;
+}
+
+.crear-cuenta input[type="submit"]{
+  margin-bottom:0;
+  background: rgb(45, 214, 63);
+  color: aliceblue;
+  border:none;
+}
+
+
+.crear-cuenta input[type="submit"]:hover{
+  background:#4A88F4;
+  cursor:pointer;
+}

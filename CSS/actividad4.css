@@ -1,0 +1,170 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0; /* quitar padding o margen blanco en nuestra pagina */
+}
+
+
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0; /* quitar padding o margen blanco en nuestra pagina */
+}
+
+
+.encabezado{
+  margin: 0;
+  padding: 0; /* en mi titulo no hagas espacio */
+  height: 100%; /* altuta en la Pagina*/
+  display: flex; /* para que se posicione vertical y horizontalmente ...*/
+  justify-content: center; /* al centro */
+  align-items: center; /* y al centro*/
+  flex-direction: column; /* poner parrafo abajo del titulo */
+  font-size: 50px;
+  color: aliceblue; /*color de mi titulo */
+}
+
+header{
+  height: 100vh;
+  padding: 0;
+  background-image: linear-gradient(to top, rgba(255, 8, 68, 0.3) 0%, rgba(255, 177, 153, 0.8) 100%), url(pedro-lastra-Nyvq2juw4_o-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+
+.menu{
+
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(57, 57, 58) 0%, rgb(10, 10, 10));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 40px; /* sombreado de caja */
+
+}
+
+
+
+
+.menu li{
+  display: inline-block; /* horizontal */
+  text-align: center;
+
+}
+
+
+.menu li a{
+  padding: 10px 20px;
+  display: inline-block;  /* horizontal */
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px 100px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+
+
+.menu li a:hover{
+
+  color: aliceblue;
+  background-color: rgb(40, 40, 40);
+  height: 50px;
+
+}
+
+
+.menu li a:visited{
+
+  color: aliceblue;
+  background-color: rgb(40, 40, 40);
+  height: 50px;
+
+}
+
+
+
+.introduccion h2{
+  font-size: 40px;
+}
+
+.introduccion p{
+  font-size: 20px;
+}
+
+
+
+
+.galeria{
+  font-size: 30px;
+}
+
+.galeria img{
+  width: 1920px;
+  height: 1080px;
+}
+
+
+
+
+
+table{
+  background-color: rgb(232, 254, 255);
+  border: 1px solid black;
+}
+
+
+
+table td{
+  border: 1px solid rgb(57, 57, 57);
+  padding: 20;
+}
+
+table tr:hover{
+  background: rgb(92, 185, 224);
+
+}
+
+table td:hover{
+  background: rgb(0, 139, 252);
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+footer{
+  background: linear-gradient(to top, rgba(255, 8, 68, 0.3) 0%, rgba(255, 177, 153, 0.8) 100%);
+  padding: 80px;
+}
+
+.contacto{
+  text-decoration: none;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+
+.contacto i{
+  text-decoration: none;
+  width: 40px;
+  color: aliceblue;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.contacto i:hover{
+  background: rgb(41, 41, 41);
+  width: 45px;
+  color: aliceblue;
+
+}

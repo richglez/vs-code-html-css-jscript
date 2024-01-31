@@ -1,0 +1,12 @@
+p{
+  font-size: 20px;
+}
+
+body{
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+
+table{
+  margin: 30px 50px;
+  text-align: center;
+}
