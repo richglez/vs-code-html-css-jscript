@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/inicio-sesion.css">
+    <title>Iniciar Sesion</title>
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <div class="form-box login">
+            <h1>Log In</h1>
+            <form action="#">
+                <div class="input-box"> <!--Esto en una sola clase y afecta a todo-->
+                    <span class="icon">
+                        <ion-icon name="mail-open-outline"></ion-icon>
+                    </span>
+                    <input type="email" required class="txtEmail">
+                    <label class="lblEmail"> Email </label>
+                </div>
+    
+    
+                <div class="input-box"> <!--Es la misma clase y le afecta lo que le ponga css-->
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                    <input type="password" required class="txtPpassword">
+                    <label class="lblPassword"> Password </label>
+    
+                </div>
+
+                <div class="remember-forgot">
+                    <label> <input type="checkbox"> Remember me </label>
+                    <a href="#">I forgot my password</a>
+                </div>
+
+                <button type="submit" class="btnSumbit">Login</button>
+
+                <div class="login-register">
+                    <p> I don't have an account
+                        <a href="#" class="register-link">Register</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>

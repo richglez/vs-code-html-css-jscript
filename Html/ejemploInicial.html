@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/micss.css">
+    <title>Ejemplo de Alerta</title>
+
+    <header>
+          <img src="imgs/logo_lince.png" alt="">
+          <h1> Hola  Alumnos </h1>
+          <p></p>
+    </header>
+
+
+    <br><br><br><br>
+
+      <script type="text/javascript">
+        function fecha_actual(){
+          var hoy = new Date();
+          document.write(hoy)
+        }
+      </script>
+  </head>
+
+<body>
+
+      <p>Bienvenidos  JavaScript  </p>
+      <br><br><br><br>
+      <ol>
+        <li> Alerta con javascript </li>
+        <li> Alerta con texto </li>
+
+      </ol>
+      <br><br><br><br>
+
+      <script type="text/javascript">
+
+        var nombre;
+        var edad;
+        nombre = prompt('Ingrese su nombre: ', "texto aqui");
+        edad = prompt('Ingrese su edad: ', '');
+        document.write('Hola ' + nombre + "asi que tienes " + edad + "anos");
+        document.write("<br>");
+        document.write("Hoy es: ");
+          fecha_actual();
+      </script>
+
+
+  </body>
+</html>

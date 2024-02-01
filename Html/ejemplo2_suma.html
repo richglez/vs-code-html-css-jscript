@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/micss.css">
+    <title>Ejemplo 2</title>
+
+      <script type="text/javascript">
+        var precioUnit, cantidad, total;
+        precioUnit = 5;
+        cantidad = 100;
+        total = precioUnit * cantidad;
+      </script>
+
+  </head>
+
+
+
+  <header>
+        <img src="imgs/logo_lince.png" alt="">
+        <h1> Hola  Alumnos </h1>
+        <h2>Ejemplo de variables</h2>
+
+
+      
+        <p></p>
+  </header>
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+      <p>Bienvenidos  JavaScript  </p>
+      <br><br><br><br>
+      <ol>
+        <li> Alerta con javascript </li>
+        <li> Alerta con texto </li>
+        <li>Funcion de archivo .js</li>
+        <li>Variables</li>
+          <ul>
+            <li>Simples</li>
+          </ul>
+      </ol>
+      <br>
+
+      <script type="text/javascript">
+        documet.write("El resultado de muiltiplicar precio por cantidad es: " + precioUnit*cantidad);
+        documet.writte("El resultado de la variable: " + total);
+      </script>
+
+      <br><br>
+
+
+
+
+      <!-- casillas de numeros -->
+      <h1>Con formulario</h1>
+      <br>
+      <form>
+        <input type="text" name="" value="" id="num1">
+        <input type="text" name="" value="" id="num2">
+        <input type="button" name="button" value="Sumar" onclick= "alert(suma(num1,num2));">
+      </form>
+
+
+
+      <!-- imprimir el resultado -->
+      <script type="text/javascript">
+        documet.writte("El resultado es" + resultado)
+      </script>
+
+
+      <!-- funcion de sumar -->
+      <script type="text/javascript">
+        var suma = function(num1,num2){
+          var num1 = parseInt(documet.getElementById("num1").value);
+          var num2 = parseInt(documet.getElementById("num2").value);
+
+          var resultado = num1 + num2;
+            return resultado;
+        }
+      </script>
+
+  </body>
+</html>
